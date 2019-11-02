@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/lab4_1b.py", line 6, in <module>
+    response = ec2.monitor_instances('i-034d174aecab59763')
+  File "/home/ec2-user/.local/lib/python3.6/site-packages/botocore/client.py", line 355, in _api_call
+    "%s() only accepts keyword arguments." % py_operation_name)
+TypeError: monitor_instances() only accepts keyword arguments.
